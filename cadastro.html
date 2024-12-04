@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <style>
+       body{
+            
+            background: url('./img/fundo.png');
+            background-size:100% 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" type="button" class="home">Home</a>
+    <div class="caixalogin">
+        <div class="img-user">
+            <img src="./img/Imagem-Usuário.png">
+        </div>
+        <h2>Cadastro</h2>
+        <form action="obrigadocadastro.html" method="get">
+            <div class="campo">
+                <input type="text" required="">
+                <label>Usuário</label>
+            </div>
+            <div class="campo">
+                <input type="address" required="">
+                <label>Endereço</label>
+            </div>
+            <div class="campo">
+                <input type="email" required="">
+                <label>Email</label>
+            </div>
+            <div class="campo">
+                <input type="number" required="">
+                <label>CPF</label>
+            </div>
+            <div class="campo">
+                <input type="password" required="">
+                <label>Senha</label>
+            </div>
+            <input type="checkbox" checked="checked" class="checbox">
+            <label class="checkbox2">Lembrar-me </label><br><br>
+            <button>Entrar</button>
+        </form>
+    </div>
+    <div> </div>
+</body>
+</html>

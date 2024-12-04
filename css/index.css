@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+    background-color: rgb(41, 247, 196);
+    font-family: Perpetua;
+    height: 50px;
+}
+
+#links,h6{
+    color: black;
+    text-align: right;
+    background-color: rgb(41, 247, 196);
+    font-family: Perpetua;
+    height: 25px;
+    font-size: 20px;
+}
+p{
+    color: black;
+    font-size: 30px;
+}
